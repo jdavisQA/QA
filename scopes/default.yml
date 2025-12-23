@@ -1,0 +1,11 @@
+target_repo_folder: cooking-docs
+requirements_dir: 04-knowledge-base/business/requirements
+output_dir: qa/out/cooking-docs
+
+include:
+  - "**/*.md"
+  - "**/*.txt"
+
+exclude:
+  - "**/archive/**"
+  - "**/drafts/**"
